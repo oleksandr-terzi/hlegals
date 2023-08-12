@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'TTNorms-Regular';
+    src: url(../../fonts/TTNorms-Regular.woff);
+}
+
+@font-face {
+    font-family: 'TTNorms-Medium';
+    src: url(../../fonts/TTNorms-Medium.woff);
+}
+
+@font-face {
+    font-family: 'TTNorms-Bold';
+    src: url(../../fonts/TTNorms-Bold.woff);
+}
+
+.bold-42-50 {
+    font-family: 'TTNorms-Bold', sans-serif;
+    font-size: 42px;
+    line-height: 50px;
+    font-weight: 700;
+}
+
+.bold-16-19 {
+    font-family: 'TTNorms-Bold', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bold-14-17-1 {
+    font-family: 'TTNorms-Bold', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.bold-12-14-1 {
+    font-family: 'TTNorms-Bold', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    font-weight: 700
+}
+
+.bold-12-16-1 {
+    font-family: 'TTNorms-Bold', sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    font-weight: 700
+}
+
+.bold-36-42 {
+    font-family: 'TTNorms-Bold', sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 700
+}
+
+.bold-96-113-63 {
+    font-family: 'TTNorms-Bold', sans-serif;
+    font-size: 96px;
+    line-height: 113px;
+    font-weight: 700;
+    letter-spacing: 63px;
+}
+
+.bold-32-38 {
+    font-family: 'TTNorms-Bold', sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+}
+
+.medium-38-45 {
+    font-family: 'TTNorms-Medium', sans-serif;
+    font-size: 38px;
+    line-height: 45px;
+    font-weight: 500;
+}
+
+.medium-32-38 {
+    font-family: 'TTNorms-Medium', sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 500;
+}
+
+.medium-24-28 {
+    font-family: 'TTNorms-Medium', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+.medium-18-21 {
+    font-family: 'TTNorms-Medium', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 500;
+}
+
+.medium-16-19 {
+    font-family: 'TTNorms-Medium', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.regular-16-22 {
+    font-family: 'TTNorms-Regular', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.regular-21-30 {
+    font-family: 'TTNorms-Regular', sans-serif;
+    font-size: 21px;
+    line-height: 30px;
+}
+
+.regular-18-26 {
+    font-family: 'TTNorms-Regular', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.regular-18-21 {
+    font-family: 'TTNorms-Regular', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.regular-16-19 {
+    font-family: 'TTNorms-Regular', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    font-style: normal;
+}
+
+.regular-38-45 {
+    font-family: 'TTNorms-Regular', sans-serif;
+    font-size: 38px;
+    line-height: 45px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.paragraph-spacing {
+    margin-bottom: 20px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}

@@ -1,0 +1,203 @@
+.wrapper-contacts {
+    margin-bottom: 80px;
+    address {
+        font-style: normal;
+    }
+
+    .container-contacts-form {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1096px;
+        width: 100%;
+        margin: 0 auto;
+
+        .container-contacts {
+            max-width: 412px;
+            width: 100%;
+            height: fit-content;
+
+            .link-facebook {
+                max-width: 170px;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                & p {
+                    max-width: 120px;
+                }
+            }
+
+            .margin-bottom-20 {
+                margin-bottom: 20px;
+            }
+
+            .margin-bottom-40 {
+                margin-bottom: 40px;
+            }
+        }
+
+        .form {
+            min-height: 576px;
+            height: 100%;
+            max-width: 527px;
+            width: 100%;
+            background-color: #F5F5FA;
+            border-radius: 12px;
+
+            .container-form {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                min-height: 576px;
+                max-width: 487px;
+                margin: 0 auto;
+
+                .input {
+                    max-width: 487px;
+                    width: 100%;
+                    background: #FFFFFF;
+                    border-radius: 8px;
+                    padding-left: 10px;
+                    border: 2px solid transparent;
+                    font-family: 'TTNorms-Regular', sans-serif;
+                    font-size: 18px;
+                    line-height: 26px;
+                    
+                    
+                    &::placeholder {
+                        color: #b3b3ba;
+                        font-family: 'TTNorms-Regular', sans-serif;
+                        font-size: 18px;
+                        line-height: 26px;
+                    }
+                }
+
+                .input:invalid {
+                    border: 2px solid #F0145A;
+                }
+
+                .name {
+                    height: 47px;
+                }
+
+                .message {
+                    height: 180px;
+                    padding-top: 10px;
+                }
+
+                .tel {
+                    height: 47px;
+                }
+
+                .email {
+                    height: 47px;
+                }
+
+                .button-contact {
+                    max-width: 250px;
+                    width: 100%;
+                    height: 50px;
+                    background: #24A3FF;
+                    box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+                    border-radius: 12px;
+                    align-self: center;
+                    border: none;
+                    color: #FFFFFF;
+                    font-family: 'TTNorms-Bold', sans-serif;
+                    font-size: 14px;
+                    line-height: 17px;
+                    font-weight: 700;
+                    cursor: pointer;
+                }
+            }
+
+            .container-form div h4 {
+                margin-bottom: 10px;
+            }
+
+            .container-form div .tel {
+                margin-bottom: 20px;
+            }
+
+            
+        }
+    }
+}
+
+.container-map {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 600px;
+    height: 100%;
+
+    & iframe {
+        width: 1440px;
+        width: 100%;
+        min-height: 600px;
+        height: 100%;
+    }
+}
+
+
+@media all and (max-width: 376px) {
+
+    .header {
+
+        .container-hero-logo {
+
+            .hero-about-us {
+                left: -165px;
+            }
+        }
+    }
+
+    .wrapper-contacts {
+
+        margin-bottom: 40px;
+
+        .container-contacts-form {
+
+            flex-direction: column;
+            
+
+            .container-contacts {
+                margin: 0 auto;
+                margin-bottom: 40px;
+                max-width: 335px;
+                width: 100%;
+                
+                .link-facebook {
+
+                }
+            }
+
+            .form {
+
+                min-height: 526px;
+
+                .container-form {
+
+                    max-width: 335px;
+                    width: 100%;
+                    margin: 0 auto;
+                    min-height: 506px;
+
+                    div {
+                        margin-bottom: 10px;
+                    }
+
+                    .title-form {
+
+                        font-family: 'TTNorms-Medium', sans-serif;
+                        font-size: 22px;
+                        line-height: 26px;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+
+}

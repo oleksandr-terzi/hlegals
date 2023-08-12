@@ -1,0 +1,429 @@
+.wrapper-size {
+    color: black;
+    font-family: 'TTNorms-Regular';
+}
+
+
+.header {
+    position: relative;
+    left: 0;
+    transform: translate(0);
+    margin-bottom: 80px;
+    .container-hero-logo {
+        display: flex;
+        max-width: 320px;
+        width: 100%;
+        justify-content: space-between;
+
+        .hero-logo {
+            background-image: url(../images/hero-images/hero-logo.svg);
+            width: 156px;
+            height: 63px;
+        }
+
+        .hero-about-us {
+            position: relative;
+
+            &::before {
+                content: '';
+                display: block;
+                background-image: url(../images/hero-images/slash.svg);
+                width: 22px;
+                height: 47px;
+                position: absolute;
+                top: 0;
+                left: -26px;
+            }
+
+            &::after {
+                content: '';
+                display: block;
+                background-image: url(../images/hero-images/hero-icon.svg);
+                width: 42px;
+                height: 47px;
+                position: absolute;
+                top: 0;
+                right: -44px;
+            }
+        }
+    }
+
+    .language-list-item-text {
+        color: #B3B3BA;
+        &:hover {
+            color: #F0145A;
+        }
+    }
+
+    .language-list-item-text-active {
+        color: #fff;
+    }
+
+    .container-language-list-item {
+        .icon-facebook {
+            fill: #B3B3BA;
+        }
+
+        
+    }
+    
+    
+
+    .nav-list-header-item-active {
+        color: #F0145A;
+        text-decoration: underline #F0145A;
+    }
+    
+}
+
+.wrapper-title-achievements-amount {
+    margin-bottom: 100px;
+}
+
+.second-container {
+    max-width: 1096px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-title-achievements-amount {
+    display: flex;
+    justify-content: space-between;
+    
+    .container-title-achievements {
+        max-width: 608px;
+        width: 100%;
+        & :nth-child(n) {
+            margin-bottom: 20px;
+        }
+        & :last-child {
+            margin-bottom: 0;
+        }
+    
+    }
+    
+    .list-achievements-amount {
+            max-width: 392px;
+            width: 100%;
+            position: relative;
+            height: fit-content;
+
+            &:before {
+                content: '';
+                display: block;
+                width: 4px;
+                height: 100%;
+                background-color: #E6E6F0;
+                position: absolute;
+                left: -20px;
+
+            }
+    
+            & :nth-child(n) {
+                margin-bottom: 40px;
+            }
+    
+            & :last-child {
+                margin-bottom: 0;
+            }
+    
+            &-item {
+                & :nth-child(1) {
+                    margin-bottom: 10px;
+                }
+
+                & h2 {
+                    padding-left: 36px;
+                    position: relative;
+                }
+            }
+    
+            &-item {
+                & :last-child {
+                    margin-bottom: 0;
+                }
+            }
+
+            .decorative-flag::before {
+                content: '';
+                display: block;
+                position: absolute;
+                left: 0px;
+                top: 6px;
+                background-image: url(../images/decorative-images/flag-icon.svg);
+                width: 32px;
+                height: 32px;
+            }
+
+            .decorative-suitcase::before {
+                content: '';
+                display: block;
+                position: absolute;
+                left: 0px;
+                top: 4px;
+                background-image: url(../images/decorative-images/suitcase-icon.svg);
+                width: 32px;
+                height: 32px;
+            }
+
+            .decorative-star::before {
+                content: '';
+                display: block;
+                position: absolute;
+                left: 0px;
+                top: 4px;
+                background-image: url(../images/decorative-images/star-icon.svg);
+                width: 32px;
+                height: 32px;
+            }
+        
+    }
+}
+
+.wrapper-team-image {
+    max-width: 1440px;
+    padding-top: 160px;
+    width: 100%;
+    min-height: 438px;
+    margin-bottom: 80px;
+    background: linear-gradient(264.71deg, #F01432 0%, #323264 29.69%), url(../images/content-images/team.jpg);
+    background-blend-mode: screen, normal;
+    
+    .team-title {
+        text-align: center;
+        text-transform: uppercase;
+        color: #fff;
+        opacity: 0.8;
+        text-shadow: 0px 15px 30px rgba(40, 40, 86, 0.8);
+    }
+}
+
+.wrapper-quality {
+    margin-bottom: 93px;
+
+    .container-quality-title-paragraph {
+        display: flex;
+    
+        .container-quality-paragraph {
+            max-width: 640px;
+            margin-right: 40px;
+            width: 100%;
+            & p {
+                margin-bottom: 20px;
+            }
+            & :last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    
+    .container-quality-title-paragraph h2 {
+        max-width: 380px;
+        width: 100%;
+    }
+}
+
+.wrapper-achievements {
+    background-color: #F5F5FA;
+    padding-top: 28px;
+    padding-bottom: 75px;
+    position: relative;
+
+    .achievements-title {
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .container-achievements {
+        display: flex;
+        justify-content: space-between;
+
+        .achievements {
+            width: 300px;
+            height: 109px;
+            background: #FFFFFF;
+            border-radius: 12px;
+        }
+
+        .legal-500 {
+            background-image: url(../images/content-images/achievement-legal.png);
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .awards-2017 {
+            background-image: url(../images/content-images/achievement-awards-2017.png);
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .liders {
+            background-image: url(../images/content-images/achievement-liders.png);
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .ulf-2017 {
+            background-image: url(../images/content-images/achievements-ulf-2017.png);
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+
+    
+}
+
+.container-dots {
+    bottom: 30px;
+}
+
+@media all and (max-width: 376px) {
+
+    .second-container {
+        max-width: 335px;
+
+    }
+
+    .header {
+
+        margin-bottom: 20px;
+
+        &::after {
+            background-image: url(../images/decorative-images/burger-menu-about.svg);
+        }
+        
+
+        .container-hero-logo {
+            .hero-logo {
+
+                background-image: url(../images/hero-images/hero-logo-about-min.svg);
+                width: 78px;
+                height: 31px;
+            }
+
+            .hero-about-us {
+                font-size: 19px;
+                line-height: 22px;
+                left: -160px;
+
+                &::before {
+                    background-image: url(../images/hero-images/slash-min.svg);
+                    width: 12px;
+                    height: 24px;
+                    left: -12px;
+                }
+    
+                &::after {
+                    background-image: url(../images/hero-images/hero-icon-min.svg);
+                    width: 22px;
+                    height: 24px;
+                    right: -22px;
+                }
+            }
+
+        }
+    }
+
+    .wrapper-title-achievements-amount {
+        margin-bottom: 34px;
+        .container-title-achievements-amount {
+            flex-direction: column;
+
+            .container-title-achievements {
+
+                margin-bottom: 35px;
+                h2 {
+                    font-size: 32px;
+                    line-height: 38px;
+                }
+
+                p {
+                    font-size: 18px;
+                    line-height: 26px;
+                }
+            }
+        }
+
+        .list-achievements-amount {
+            &::before {
+
+                width: 100%;
+                height: 4px;
+                left: 0;
+                top: -20px;
+            }
+        }
+    }
+
+    .wrapper-team-image {
+        background: linear-gradient(264.71deg, #F01432 0%, #323264 29.69%), url(../images/content-images/team-min.jpg);
+        min-height: 290px;
+        padding-top: 120px;
+        margin-bottom: 20px;
+
+        .team-title {
+            font-size: 36px;
+            line-height: 42px;
+            letter-spacing: 20px;
+
+        }
+    }
+
+    .wrapper-quality {
+        margin-bottom: 40px;
+        .container-quality-title-paragraph {
+            flex-direction: column;
+
+            h2 {
+                font-size: 32px;
+                line-height: 38px;
+            }
+            .container-quality-paragraph {
+
+                font-size: 18px;
+                line-height: 26px;
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .wrapper-achievements {
+
+        .container-achievements {
+
+
+            .achievements {
+
+                width: 157px;
+                height: 57px;
+            }
+
+            .legal-500 {
+                background-image: url(../images/content-images/achievement-legal-min.png);
+            }
+
+            .awards-2017 {
+                background-image: url(../images/content-images/achievement-awards-2017-min.png);
+            }
+
+            .liders {
+                display: none;
+            }
+
+            .ulf-2017 {
+                display: none;
+            }
+        }
+    }
+
+
+
+
+}
+
+
+
+
+

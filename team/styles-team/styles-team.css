@@ -1,0 +1,93 @@
+.header .container-hero-logo {
+  max-width: 340px;
+}
+
+.wrapper-team {
+  margin-bottom: 60px;
+}
+.wrapper-team .team-title {
+  max-width: 860px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.wrapper-team .container-team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  min-height: 1183px;
+  align-content: space-between;
+}
+.wrapper-team .container-team-persons {
+  max-width: 413px;
+  width: 100%;
+  min-height: 568px;
+}
+.wrapper-team .container-team-persons h5 {
+  margin-bottom: 5px;
+}
+.wrapper-team .container-team-persons .persons-title .team-name-oleksandr {
+  position: relative;
+}
+.wrapper-team .container-team-persons .persons-title .team-name-oleksandr::after {
+  content: '';
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-image: url(../../images/decorative-images/link-team-persons.svg);
+  position: absolute;
+  top: -5px;
+  left: 380px;
+}
+.wrapper-team .container-team-persons .persons {
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  padding-top: 30px;
+}
+
+@media all and (max-width: 376px) {
+  .header .container-hero-logo .hero-about-us {
+    left: -170px;
+  }
+
+  .wrapper-team {
+    margin-bottom: 40px;
+  }
+  .wrapper-team .team-title {
+    max-width: 335px;
+    width: 100%;
+    font-size: 32px;
+    line-height: 38px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .wrapper-team .container-team {
+    max-width: 335px;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  .wrapper-team .container-team-persons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: fit-content;
+  }
+  .wrapper-team .container-team-persons img {
+    width: 158px;
+    height: 191px;
+  }
+  .wrapper-team .container-team-persons .persons-title-subtitle {
+    max-width: 160px;
+    width: 100%;
+  }
+  .wrapper-team .container-team-persons .persons-title .team-name-oleksandr::after {
+    top: 85px;
+    left: 0px;
+  }
+}
+
+/*# sourceMappingURL=styles-team.css.map */

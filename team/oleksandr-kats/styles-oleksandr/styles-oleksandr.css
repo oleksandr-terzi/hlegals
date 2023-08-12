@@ -1,0 +1,73 @@
+.wrapper-oleksandr {
+  margin-bottom: 80px;
+}
+.wrapper-oleksandr .container {
+  max-width: 1096px;
+}
+.wrapper-oleksandr .container .container-image-title-paragraph {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper-oleksandr .container .container-image-title-paragraph .image-container {
+  max-width: 500px;
+  width: 100%;
+}
+.wrapper-oleksandr .container .container-image-title-paragraph .image-container .image-person {
+  border-radius: 12px;
+}
+.wrapper-oleksandr .container .container-image-title-paragraph .container-title-paragraph {
+  max-width: 640px;
+  width: 100%;
+}
+.wrapper-oleksandr .container .container-image-title-paragraph .container-title-paragraph h2 {
+  margin-bottom: 10px;
+}
+.wrapper-oleksandr .container .container-image-title-paragraph .container-title-paragraph .conteiner-position-at-work-social-media {
+  display: flex;
+  justify-content: space-between;
+  max-width: 450px;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.wrapper-oleksandr .container .container-image-title-paragraph .container-title-paragraph .separator {
+  max-width: 640px;
+  margin-bottom: 40px;
+}
+.wrapper-oleksandr .container .container-image-title-paragraph .container-title-paragraph .container-text {
+  margin-bottom: 40px;
+}
+.wrapper-oleksandr .container .container-image-title-paragraph .container-title-paragraph .title-h5 {
+  margin-bottom: 10px;
+}
+
+@media all and (max-width: 376px) {
+  .wrapper-oleksandr {
+    margin-bottom: 40px;
+  }
+  .wrapper-oleksandr .container {
+    max-width: 335px;
+  }
+  .wrapper-oleksandr .container .container-image-title-paragraph {
+    flex-direction: column;
+    min-height: 1302px;
+  }
+  .wrapper-oleksandr .container .container-image-title-paragraph .image-container img {
+    width: 335px;
+    height: 405px;
+  }
+  .wrapper-oleksandr .container .container-image-title-paragraph .container-title-paragraph h2 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .wrapper-oleksandr .container .container-image-title-paragraph .container-title-paragraph .conteiner-position-at-work-social-media {
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 80px;
+  }
+  .wrapper-oleksandr .container .container-image-title-paragraph .container-title-paragraph .separator {
+    margin-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=styles-oleksandr.css.map */

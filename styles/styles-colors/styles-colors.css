@@ -1,0 +1,74 @@
+
+.services-title-color {
+    color: #B3B3BA;
+}
+
+.services-title-color:hover {
+    background: linear-gradient(90deg, #EF8080 35%, #F0145A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.services-title-color-active {
+    background: linear-gradient(90deg, #EF8080 35%, #F0145A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.services-title-do-better-color {
+    background: linear-gradient(90deg, #F0145A 0, #EF8080 65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;       
+}
+
+.services-card-title-color {
+    color: #24A3FF;
+}
+
+.link-color {
+    color: #24A3FF;
+}
+
+.link-hover-color {
+    color: #24A3FF;
+}
+
+.link-hover-color:hover {
+    color: #F0145A;
+}
+
+.link-hover-color-header {
+    color: #FFF;
+}
+
+.link-hover-color-header:hover {
+    color: #F0145A;
+}
+
+.team-name {
+    color: #B3B3BA;
+}
+
+.team-name-oleksandr:hover {
+    color: #F0145A;
+}
+
+.cases-title-color {
+    color: #F0145A;
+}
+
+.cases-card-title-color {
+    color: #686887;
+}
+
+.partners-title-color {
+    color: #323264;
+}
+
+.black {
+    color: #000;
+}
+
+.main-alt {
+    color: #46466E;
+}
